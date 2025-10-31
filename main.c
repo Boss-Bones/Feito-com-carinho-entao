@@ -22,13 +22,13 @@ int main() {
     int ho, ve, op;
     getmaxyx(stdscr, ve, ho);
 
-    printc(ve/2-3, ho, "Olá mundo\n");
-    printc(-1, ho, "Olá mundo2\n");
-    printc(-1, ho, "Olá mun878979do2\n");
-    printc(-1, ho, "Olá mundo2\n");
-    printc(-1, ho, "Olá mundo2\n");
-    printc(-1, ho, "Olá mundo2\n");
-    //mvprintw(ve/2, ho/2, "CALCULADORA VETORIAL\n1: ADIÇÃO\n2: MULTIPLICAÇÃO POR ESCALAR\n3: PRODUTO ESCALAR\n4: PRODUTO VETORIAL\n5: PRODUTO MISTO\n");
+    printc(ve/2-3, ho, "CALCULADORA VETORIAL\n");
+    printc(-1, ho, "1: ADIÇÃO\n");
+    printc(-1, ho, "2: MULTIPLICAÇÃO POR ESCALAR\n");
+    printc(-1, ho, "3: PRODUTO ESCALAR\n");
+    printc(-1, ho, "4: PRODUTO VETORIAL\n");
+    printc(-1, ho, "5: PRODUTO MISTO\n");
+
     scanw("%d", &op);
 
     switch (op)
