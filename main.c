@@ -1,4 +1,5 @@
 #include <ncurses.h>
+#include <locale.h>
 
 int contar(char str[100]) {
     int i;
@@ -16,6 +17,7 @@ void printc(int y, int xmax, char str[100]) {
 }
 
 int main() {
+    setlocale (LC_ALL, "");
     // Inicializar janela
     initscr();
 
