@@ -17,7 +17,7 @@ void printc(int y, int xmax, char str[100]) {
 }
 
 int main() {
-    setlocale (LC_ALL, "");
+    setlocale (LC_ALL, "Portuguese_Brasil");
     // Inicializar janela
     initscr();
 
