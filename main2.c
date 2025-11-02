@@ -85,38 +85,27 @@ int main() {
                     // Limpando janela
                     erase();
 
-                    // Exibindo outro conteúdo
-                    at_adicao();
+                    // Tela de acordo com a opção escolhida
+                    switch (op)
+                    {
+                        case 0:
+                            at_adicao();
+                            break;
+                        case 1:
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            break;
+                        case 4:
+                            break; 
+                        default:
+                            break;
+                    }
 
                     // Limpando a janela e voltando as opções
                     erase();
                     printops(op, ve, ho);
-
-                    /*
-                    switch (op)
-                    {
-                        case 0:
-                            erase();
-                            at_adicao();
-                            printops(op, ve, ho);
-                            break;
-                        
-                        case 1:
-                            break;
-
-                        case 2:
-                            break;
-                        
-                        case 3:
-                            break;
-                        
-                        case 4:
-                            break;
-                        
-                        default:
-                            break;
-                    }
-                    */
                 }
             }
         }
