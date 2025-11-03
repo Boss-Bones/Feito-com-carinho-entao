@@ -1,2 +1,2 @@
-gcc -o programa main2.c -lncursesw
+gcc -o programa main3.c -lncursesw
 ./programa
